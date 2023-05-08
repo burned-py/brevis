@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from "./components/Header";
-import {Navigation} from "@mui/icons-material";
+import NavBar from "./components/NavBar";
 
 
 function App() {
@@ -9,8 +9,8 @@ function App() {
         <div className="App">
 
             <Header/>
+            <NavBar/>
 
-            <Navigation/>
         </div>
     )
         ;
