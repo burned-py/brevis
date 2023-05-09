@@ -1,0 +1,52 @@
+.Gallery {
+}
+
+.version1-card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f590e6;
+    padding: 0.3rem;
+    margin: 0.8rem 0.8rem;
+
+}
+
+.version1-card-content {
+    flex-basis: 40%; /* adjust as needed */
+
+}
+
+.version1-card-media {
+     flex-basis: 40%;/* adjust as needed */
+
+}.version1-card-button {
+     flex-basis: 20%;/* adjust as needed */
+    align-self: center;
+    justify-content: space-evenly;
+}
+
+
+@media screen and (max-width: 600px) {
+    .version1-card-content {
+        flex-basis: 100%;
+    }
+
+    .version1-card-media {
+        order: 2;
+        flex-basis: 100%;
+    }
+
+    .version1-card-button {
+        flex-basis: 100%;
+        order: 3;
+        justify-content: space-evenly;
+        align-items: center;
+        width: auto;
+
+    }
+}
+.details-button {
+    flex-basis: 10%;
+    width: fit-content;
+    height: auto;
+
+}

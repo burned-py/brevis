@@ -1,5 +1,13 @@
 .App {
-  text-align: center;
+text-align: center;
   background-color: aqua;
 }
 
+.Card {
+  background-color: green;
+}
+
+.Gallery {
+  justify-content: center;
+  background-color: red;
+}
