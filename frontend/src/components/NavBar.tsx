@@ -7,7 +7,7 @@ import {BottomNavigationAction} from "@mui/material";
 
 export default function NavBar() {
     return (
-        <BottomNavigation sx={{width: '100vw', position: 'fixed', bottom: '0.1rem', backgroundColor: '#c0b4a9'}}>
+        <BottomNavigation sx={{width: '100vw', position: 'fixed', bottom: '0', backgroundColor: '#c0b4a9'}}>
             <BottomNavigationAction label="User" icon={<PersonIcon />} />
             <BottomNavigationAction label="Home" icon={<HomeIcon />} />
             <BottomNavigationAction label="Add" icon={<AddIcon />} />
