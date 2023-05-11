@@ -39,7 +39,7 @@ function App() {
 
             <Header/>
 
-            <Container maxWidth="lg" className='Card'>
+            <Container className='Gallery-Container'>
                     <Gallery missions={missions}/>
             </Container>
 
