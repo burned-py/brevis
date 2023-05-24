@@ -4,10 +4,10 @@ text-align: center;
 }
 
 .Gallery-Container {
-  background-color: green;
+ /* background-color: green;*/
 }
 
 .Gallery {
   justify-content: center;
-  background-color: red;
+  /*background-color: red;*/
 }

@@ -11,7 +11,7 @@ type CardProps = {
 
 export default function DeliveryCard(props: CardProps) {
     return (
-        <Card variant="outlined" className="version1-card">
+<Card variant="outlined" className="version1-card" sx={{backgroundColor:"#ededed"}}>
 
             <div className="version1-card-content">
                 <p> ID: {props.mission.id}</p>
@@ -27,7 +27,9 @@ export default function DeliveryCard(props: CardProps) {
                 style={{
                     width: '75%',
                     height: 'auto',
-                    padding: '2vw',
+                 /*   padding: '2vw',*/
+                    border: 'solid',
+                    borderColor: 'darkgrey'
                 }}
             />
             </div>
